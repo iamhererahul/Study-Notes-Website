@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url(images/back.webp);
+    background-size: cover;
+}
+
+header {
+    background-color: transparent;
+    color: #fff;
+    padding: 20px;
+    text-shadow: 0 0 25px rgb(0, 166, 255);
+    color: #00ccff;
+    font-size: 35px;
+    font-family: Arial;
+}
+
+h1 {
+    font-size: 36px;
+    color: black;
+}
+
+.content {
+    padding: 20px;
+}
+
+.semester-button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.semester-button:hover {
+    background-color: #2980b9;
+}
+
+.content .cn {
+    width: 160px;
+    height: 40px;
+    background: #0095ff;
+    border: 2px solid rgb(0, 145, 255);
+    box-shadow: 0 0 25px rgb(0, 153, 255);
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+.content .cn a {
+    text-decoration: none;
+    color: #000;
+    transition: .3s ease;
+}
+
+.cn:hover {
+    background-color: #fff;
+}
+
+
+/* styles.css */
+
+footer {
+    background-color: transparent;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+
+/* Add more CSS for styling as needed */
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: flex;
+    margin-right: 20px;
+    align-items: end;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    align-items: center;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+    align-items: center;
+}
+
+.nav-links li:last-child {
+    margin-right: 0;
+    align-items: center;
+}
+
+
+/* Style for the Sign Out button */
+
+.nav-links li:last-child a {
+    background-color: transparent;
+    /* Background color for the button */
+    color: #fff;
+    /* Text color for the button */
+    padding: 10px 20px;
+    /* Adjust padding as needed */
+    border-radius: 5px;
+    /* Rounded corners */
+    text-decoration: none;
+    transition: background-color 0.3s;
+    /* Smooth hover effect */
+    position: absolute;
+    top: 10px;
+    /* Adjust the top value as needed */
+    right: 10px;
+    /* Adjust the right value as needed */
+    size: 10px;
+}
+
+.signout-button {
+    width: 100px;
+    /* Adjust the width as needed */
+    height: 40px;
+    /* Adjust the height as needed */
+    font-size: 16px;
+    /* Adjust the font size as needed */
+    /* Add other button styles as needed */
+    background-color: lightskyblue;
+    box-shadow: #00ccff;
+}
+
+.nav-links .signout-button {
+    width: 160px;
+    height: 40px;
+    background: #0095ff;
+    border: 2px solid rgb(0, 145, 255);
+    box-shadow: 0 0 25px rgb(0, 153, 255);
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+.nav-links .signout-button a {
+    text-decoration: none;
+    color: #000;
+    transition: .3s ease;
+}
+
+.signout-button:hover {
+    background-color: #fff;
+}

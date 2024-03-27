@@ -1,0 +1,75 @@
+/* style.css */
+
+
+/* Style the body background and text */
+
+body {
+    background-image: url(images/back.webp);
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Style the h2 headings */
+
+h2 {
+    color: rgb(0, 166, 255);
+    text-shadow: 0 0 20px rgb(0, 145, 255);
+}
+
+
+/* Style the anchor tags (links) */
+
+a {
+    text-decoration: none;
+    /* Remove underline from links */
+    color: #0077cc;
+    /* Set link text color */
+}
+
+
+/* Style links when hovered over */
+
+a:hover {
+    text-decoration: underline;
+    /* Add underline on hover */
+}
+
+.footer,
+.footer a {
+    color: #999;
+    font-size: 0.9rem;
+}
+
+.footer p {
+    margin-bottom: 1.5rem;
+    padding-left: 50px;
+}
+
+.footer .footer_cols {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+    padding-left: 50px;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.footer li {
+    line-height: 1.9;
+}
+
+footer {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+/* Make the header and footer text larger */
+
+header,
+footer {
+    text-align: center;
+}
